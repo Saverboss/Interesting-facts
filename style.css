@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #08B2E3; /* сине-зеленый фон */
+}
+
+/* Стили для окна с фактом и фразой */
+#factDisplay, #factPhrase {
+    max-width: 600px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #57A773; /* нежно зеленый цвет для фактов и фраз */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #ffffff; /* белый текст для контраста */
+}
+#factPhrase {
+    background-color: #ee6352;
+
+}
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 600px) {
+    #factDisplay, #factPhrase {
+        margin: 10px;
+        padding: 15px;
+    }
+}
